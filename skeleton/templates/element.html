@@ -1,0 +1,10 @@
+    {% for post in posts %}
+        <div class="jumbotron" style="background-color: #484848">
+            <h3>{{ post[0].text }}</h3>
+            <div class="container">
+                <a href="/upvote/{{ post[0].id }}" style="margin-right: 20%;" class="thumbup fontawesome-thumbs-up"></a>
+                <a href="/downvote/{{ post[0].id }}" style="margin: 0px;" class="thumbdown fontawesome-thumbs-down"></a>
+            </div>
+            <div style="margin-top: 10px; font-size: 500%;">{{ post[1] }}</div>
+        </div>
+    {% endfor %}

@@ -3,5 +3,6 @@
 Flask
 Flask-Script
 Flask-SQLAlchemy
-Flask-Login
 gunicorn
+psycopg2
+twilio
