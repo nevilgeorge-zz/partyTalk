@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #0AA1F5;
+    color: #00FF07;
     background-color: #000;
 }
 
@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #00FF07;
 }
 
 .navbar-custom .nav li.active {
@@ -137,8 +137,8 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/partybanner.png) no-repeat bottom center scroll;
+    color: #00FF07;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -182,7 +182,7 @@ a:focus {
     border: 2px solid #fff;
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: #00FF07;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -192,7 +192,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #00FF07;
     background: rgba(255,255,255,.1);
 }
 
@@ -255,7 +255,7 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
+    color: #00FF07;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -294,17 +294,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
+    border: 1px solid #00FF07;
+    color: #00FF07;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 1px solid #00FF07;
     outline: 0;
     color: #000;
-    background-color: #219ab3;
+    background-color: #00FF07;
 }
 
 ul.banner-social-buttons {
