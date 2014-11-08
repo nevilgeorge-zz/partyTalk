@@ -1,17 +1,20 @@
-var downPressed = false,
+var otherEl, 
+    downPressed = false,
     upPressed = false;
 
 $('.thumbup').click(function(){
-    if (downPressed) {
-        $('.thumbdown').removeClass('thumbdownpressed');
+    otherEl = $(this).parent().children()[1];
+    if ($(otherEl).hasClass("thumbdownpressed")) {
+        $(otherEl).removeClass('thumbdownpressed');
     }
     $(this).addClass('thumbuppressed');
     upPressed = true;
 });
 
 $('.thumbdown').click(function(){
-    if (upPressed) {
-        $('.thumbup').removeClass('thumbuppressed');
+    otherEl = $(this).parent().children()[0];
+    if ($(otherEl).hasClass("thumbuppressed")) {
+        $(otherEl).removeClass("thumbuppressed");
     }
     $(this).addClass('thumbdownpressed');
     downPressed = true;
